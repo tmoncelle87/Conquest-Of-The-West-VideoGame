@@ -345,6 +345,10 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/BoatFloat.cs"
+"Assets/BoatMovement.cs"
+"Assets/CameraMovement.cs"
+"Assets/MainMenu.cs"
 "Assets/Old Sea Port/EffectExamples/Shared/Scripts/DecalDestroyer.cs"
 "Assets/Old Sea Port/EffectExamples/Shared/Scripts/ExtinguishableFire.cs"
 "Assets/Old Sea Port/EffectExamples/Shared/Scripts/GunAim.cs"
@@ -352,6 +356,7 @@
 "Assets/Old Sea Port/EffectExamples/Shared/Scripts/ParticleCollision.cs"
 "Assets/Old Sea Port/EffectExamples/Shared/Scripts/ParticleExamples.cs"
 "Assets/Old Sea Port/EffectExamples/Shared/Scripts/ParticleMenu.cs"
+"Assets/russian_buildings/scripts/decal_shift.cs"
 -langversion:9.0
 
 /deterministic

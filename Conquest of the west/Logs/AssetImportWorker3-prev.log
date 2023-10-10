@@ -1,0 +1,314 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.24f1 (cf10dcf7010d) revision 13570268'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 32711 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+E:/GitHub/Conquest-Of-The-West/Conquest of the west
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+54887
+Successfully changed project path to: E:/GitHub/Conquest-Of-The-West/Conquest of the west
+E:/GitHub/Conquest-Of-The-West/Conquest of the west
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17012] Host "[IP] 192.168.1.77 [Port] 0 [Flags] 2 [Guid] 821473984 [EditorId] 821473984 [Version] 1048832 [Id] WindowsEditor(7,Alienware-Aurora-R7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [17012] Host "[IP] 192.168.1.77 [Port] 0 [Flags] 2 [Guid] 821473984 [EditorId] 821473984 [Version] 1048832 [Id] WindowsEditor(7,Alienware-Aurora-R7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 87.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.24f1 (cf10dcf7010d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/GitHub/Conquest-Of-The-West/Conquest of the west/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12129 MB
+    Driver:   31.0.15.3168
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56208
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010531 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 71.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.616 seconds
+Domain Reload Profiling:
+	ReloadAssembly (617ms)
+		BeginReloadAssembly (86ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (427ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (99ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (253ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (72ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (125ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004584 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\GitHub\Conquest-Of-The-West\Conquest of the west\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\GitHub\Conquest-Of-The-West\Conquest of the west\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.915 seconds
+Domain Reload Profiling:
+	ReloadAssembly (916ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (698ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (243ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (308ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (197ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3081 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (114.2 KB). Loaded Objects now: 3569.
+Memory consumption went from 128.2 MB to 128.1 MB.
+Total: 2.905900 ms (FindLiveObjects: 0.233800 ms CreateObjectMapping: 0.150500 ms MarkObjects: 2.407800 ms  DeleteObjects: 0.113000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 283260.055632 seconds.
+  path: Assets/russian_buildings/prefabs/graffiti/rus_build_graf_02.prefab
+  artifactKey: Guid(0547fc4bd873d84489829c89ee469a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/graffiti/rus_build_graf_02.prefab using Guid(0547fc4bd873d84489829c89ee469a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3604da39f969938c73a47d70b8796e6f') in 0.359961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/russian_buildings/prefabs/graffiti/rus_build_graf_35.prefab
+  artifactKey: Guid(f78211cf20f72f34683a529435f22040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/graffiti/rus_build_graf_35.prefab using Guid(f78211cf20f72f34683a529435f22040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f97ba5b98df3e8d34767ce5ed9249714') in 0.012972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/russian_buildings/prefabs/graffiti/rus_build_graf_19.prefab
+  artifactKey: Guid(fbcf5b9bba905ac4786be5098c0bbb7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/graffiti/rus_build_graf_19.prefab using Guid(fbcf5b9bba905ac4786be5098c0bbb7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c485bb609718b0350a68560fb085eff6') in 0.011245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/russian_buildings/prefabs/graffiti/rus_build_graf_05.prefab
+  artifactKey: Guid(c8d8108a6a8170843a155c437f9f9745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/graffiti/rus_build_graf_05.prefab using Guid(c8d8108a6a8170843a155c437f9f9745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af2bf591d7d338b36385ab4db59c06fe') in 0.010392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/russian_buildings/prefabs/graffiti/rus_build_graf_21.prefab
+  artifactKey: Guid(37cb3aeb771f0b04e9183b6e572f9f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/graffiti/rus_build_graf_21.prefab using Guid(37cb3aeb771f0b04e9183b6e572f9f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0e50cbcba65d90fa7dd8d4045088705') in 0.008981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/russian_buildings/prefabs/graffiti/rus_build_graf_29.prefab
+  artifactKey: Guid(850689e01590f534a92b699c31ce2480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/graffiti/rus_build_graf_29.prefab using Guid(850689e01590f534a92b699c31ce2480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4cefd6083dd3615d007e2de87a73846') in 0.010241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/russian_buildings/prefabs/graffiti/rus_build_graf_22.prefab
+  artifactKey: Guid(08b772b5067fe1c49990a5e898f7488c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/graffiti/rus_build_graf_22.prefab using Guid(08b772b5067fe1c49990a5e898f7488c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b969be6f9b590241221fc1291c57932a') in 0.010779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/russian_buildings/prefabs/graffiti/rus_build_graf_41.prefab
+  artifactKey: Guid(1ea57a5d20266944baea5b9628cf71c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/graffiti/rus_build_graf_41.prefab using Guid(1ea57a5d20266944baea5b9628cf71c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5259a29c56445f9b8e47b5a7dfca6fb0') in 0.011159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/russian_buildings/prefabs/graffiti/rus_build_graf_17.prefab
+  artifactKey: Guid(2cb146492ef4b1548800739039ccbc18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/graffiti/rus_build_graf_17.prefab using Guid(2cb146492ef4b1548800739039ccbc18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05504ef37543f4ac4bf648ea002d6fb2') in 0.010617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/russian_buildings/prefabs/graffiti/rus_build_graf_44.prefab
+  artifactKey: Guid(9ebae55f1f512674e94762406cd0174e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/graffiti/rus_build_graf_44.prefab using Guid(9ebae55f1f512674e94762406cd0174e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba447165bc113017aa6354f35df15a87') in 0.010651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/russian_buildings/prefabs/graffiti/rus_build_graf_03.prefab
+  artifactKey: Guid(e4feb0cccc7c6c14c9dd4d139a871646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/graffiti/rus_build_graf_03.prefab using Guid(e4feb0cccc7c6c14c9dd4d139a871646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bda09486a45bb55010d3d8d64c366011') in 0.010036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/russian_buildings/prefabs/graffiti/rus_build_graf_10.prefab
+  artifactKey: Guid(59f242e63e5859b4daac1618ada30c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/graffiti/rus_build_graf_10.prefab using Guid(59f242e63e5859b4daac1618ada30c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a8b1bb3b9ab24b8f84da194af013ed1') in 0.009184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/russian_buildings/prefabs/graffiti/rus_build_graf_42.prefab
+  artifactKey: Guid(c32d531358e2c7e4391fda6554c4ada0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/graffiti/rus_build_graf_42.prefab using Guid(c32d531358e2c7e4391fda6554c4ada0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ad2958951a990cc9bcb6d19609bb907') in 0.010518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/russian_buildings/prefabs/graffiti/rus_build_graf_36.prefab
+  artifactKey: Guid(329f5e95c175d9b44ab3e5cc5f7175e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/graffiti/rus_build_graf_36.prefab using Guid(329f5e95c175d9b44ab3e5cc5f7175e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16caf7c1be69b3a0c1796096d542f06c') in 0.009991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/russian_buildings/prefabs/graffiti/rus_build_graf_16.prefab
+  artifactKey: Guid(35255ae75cf452e4398c69f6e4c0c903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/graffiti/rus_build_graf_16.prefab using Guid(35255ae75cf452e4398c69f6e4c0c903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4c09d34b6c6462fbfed370c8b9ab8b8') in 0.009713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/russian_buildings/prefabs/graffiti/rus_build_graf_18.prefab
+  artifactKey: Guid(ca0b1139eb5dc2143866eb5ad3644222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/graffiti/rus_build_graf_18.prefab using Guid(ca0b1139eb5dc2143866eb5ad3644222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bafebac0ca116b3b8c54575c50ce852e') in 0.010573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/russian_buildings/prefabs/graffiti/rus_build_graf_11.prefab
+  artifactKey: Guid(1ee69bcb7c0dd6a49947f91fb97cfdca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/graffiti/rus_build_graf_11.prefab using Guid(1ee69bcb7c0dd6a49947f91fb97cfdca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63bdaa094f549b5bba996780056c2cc2') in 0.009872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/russian_buildings/prefabs/graffiti/rus_build_graf_04.prefab
+  artifactKey: Guid(7783a20d4199b15439dff5f341d2ea2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/graffiti/rus_build_graf_04.prefab using Guid(7783a20d4199b15439dff5f341d2ea2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0091d484f574c24c07312a709c17f5f6') in 0.010080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/russian_buildings/prefabs/graffiti/rus_build_graf_38.prefab
+  artifactKey: Guid(73feb827fe15e32409dc08dd542a3612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/graffiti/rus_build_graf_38.prefab using Guid(73feb827fe15e32409dc08dd542a3612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5d7c8eb5054244fd2c293e76059446f') in 0.008998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.697716 seconds.
+  path: Assets/FlagPole/Prefabs/FlagPoleNoFlag.prefab
+  artifactKey: Guid(ebbc32e0dfda20f4e9b6da76739a70e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlagPole/Prefabs/FlagPoleNoFlag.prefab using Guid(ebbc32e0dfda20f4e9b6da76739a70e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c730bdb2c226399b34156b298b89edb8') in 0.287259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.267014 seconds.
+  path: Assets/FlagPole/FlagMaterials/Textures/GBflag.png
+  artifactKey: Guid(ac3ea598fbed01141a2996e9014aa095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlagPole/FlagMaterials/Textures/GBflag.png using Guid(ac3ea598fbed01141a2996e9014aa095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '098559e188bb46d130da86ff01b302eb') in 0.034835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.914205 seconds.
+  path: Assets/FlagPole/PoleMaterials/Textures/BrandNewSmooth_Gold_Material_AlbedoTransparency.bmp
+  artifactKey: Guid(5b53adc4d8e5b8f4f81ae4c25f74c05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlagPole/PoleMaterials/Textures/BrandNewSmooth_Gold_Material_AlbedoTransparency.bmp using Guid(5b53adc4d8e5b8f4f81ae4c25f74c05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b73dc61a8587e33630d67b4e26371104') in 0.022070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/FlagPole/PoleMaterials/Textures/BrandNewSmooth_Pole_Colour_MetallicSmoothness.bmp
+  artifactKey: Guid(eb94e3ff32c6aa04588f2ac4abaef947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlagPole/PoleMaterials/Textures/BrandNewSmooth_Pole_Colour_MetallicSmoothness.bmp using Guid(eb94e3ff32c6aa04588f2ac4abaef947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d968cf8ebf8dacd354be76c42c50fe9') in 0.017209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FlagPole/PoleMaterials/Textures/BrandNewSmooth_Pole_Colour_AlbedoTransparency.bmp
+  artifactKey: Guid(d16f64896d6ef4f44b5e251f33a7ec1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlagPole/PoleMaterials/Textures/BrandNewSmooth_Pole_Colour_AlbedoTransparency.bmp using Guid(d16f64896d6ef4f44b5e251f33a7ec1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86fa7e614a4d2f70eec59dbf87b89e35') in 0.010363 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
